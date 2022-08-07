@@ -1,0 +1,70 @@
+body {
+  overflow: scroll;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+#container {
+	height:2000px;
+}
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #FAEBD7;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+#menu-tile,  #beef-tile , #sushi-tile {
+  position: relative;
+  height: 100%;
+  margin-right:10x;
+  margin-top: 30px;
+  color: #337ab7;
+  text-decoration: none;
+  //background-color: #fff;
+}
+#menu-tile{
+	background-color: #A52A2A;	
+}
+
+#beef-tile{
+	background-color: #DEB887;	
+}
+
+#sushi-tile{
+	background-color: #5F9EA0;
+}
+
+ #menu-tile p,  #beef-tile p , #sushi-tile p {
+  color: #000;
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+#collapsable-nav { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+ #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
